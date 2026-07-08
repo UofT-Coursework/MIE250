@@ -1,0 +1,27 @@
+Input file: input.txt
+Output file: output.txt
+Execution mode: parallel
+
+Matrix A:
+1.0 1.0 1.0
+1.0 2.0 3.0
+5.0 6.0 4.0
+
+Final Matrix L:
+1.0 0.0 0.0
+1.0 1.0 0.0
+5.0 1.0 1.0
+
+Final Matrix U:
+1.0 1.0 1.0
+0.0 1.0 2.0
+0.0 0.0 -3.0
+
+Difference Matrix (A - LU):
+0.0000 0.0000 0.0000
+0.0000 0.0000 0.0000
+0.0000 0.0000 0.0000
+
+Tolerance (difference between A and LU): 0.0000
+
+Decomposition complete. Results written to output.txt
